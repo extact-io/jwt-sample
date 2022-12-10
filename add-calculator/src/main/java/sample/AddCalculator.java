@@ -27,10 +27,10 @@ public class AddCalculator {
         int right = Integer.parseInt(args[1]);
         String token = args[2];
 
-        AddCalculator idProvider = new AddCalculator(
+        AddCalculator addCalculator = new AddCalculator(
                 new AuthTokenVerifier(secretkey),
                 new AddOperator());
 
-        idProvider.calculate(left, right, token);
+        addCalculator.calculate(left, right, token);
     }
 }
