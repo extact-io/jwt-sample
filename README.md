@@ -53,4 +53,4 @@ mvn clean package
 ```
 
 ## 実行
-記事をの[こちら](https://developer.mamezou-tech.com/blogs/2022/12/10/java-jwt-auth/)を参照
+[こちら](https://developer.mamezou-tech.com/blogs/2022/12/10/java-jwt-auth/)の記事を参照
